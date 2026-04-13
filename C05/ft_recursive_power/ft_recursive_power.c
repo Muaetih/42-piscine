@@ -3,7 +3,7 @@ int ft_recurs(int nb, int power, int n)
 
     if (power >= 1)
         return (ft_recurs(nb, power - 1, n * nb));
-    return nb;
+    return n;
 
 }
 
