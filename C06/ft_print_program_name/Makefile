@@ -1,8 +1,8 @@
 NAME = print
 
-SRC = main.c ft_print_program.c
+SRC = ft_print_program_name.c
 
-SRC = $(SRC:.c=.o)
+OBJ = $(SRC:.c=.o)
 
 CC = gcc
 CFLAGS = -Werror -Wall -Wextra
